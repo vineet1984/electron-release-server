@@ -3,17 +3,17 @@ services:
   web:
     build: .
     environment:
-      WEBSITE_TITLE: 'Test Title'
-      WEBSITE_HOME_CONTENT: 'Test Content'
+      WEBSITE_TITLE: 'Zaperon Client Download'
+      WEBSITE_HOME_CONTENT: 'Zaperon Client Download'
       WEBSITE_NAV_LOGO: ''
-      WEBSITE_APP_TITLE: 'Test App Title'
-      APP_USERNAME: username
-      APP_PASSWORD: password
+      WEBSITE_APP_TITLE: 'Zaperon Client Download'
+      APP_USERNAME: admin
+      APP_PASSWORD: HIRE#123
       DB_HOST: db
       DB_PORT: 5432
-      DB_USERNAME: releaseserver
+      DB_USERNAME: admin
       DB_NAME: releaseserver
-      DB_PASSWORD: secret
+      DB_PASSWORD: HIRE#123
       # DEKs should be 32 bytes long, and cryptographically random.
       # You can generate such a key by running the following:
       #   require('crypto').randomBytes(32).toString('base64')
@@ -21,8 +21,8 @@ services:
       DATA_ENCRYPTION_KEY: oIh0YgyxQbShuMjw4/laYcZnGKzvC3UniWFsqL0t4Zs=
       # Recommended: 63 random alpha-numeric characters
       # Generate using: https://www.grc.com/passwords.htm
-      TOKEN_SECRET: change_me_in_production
-      APP_URL: 'localhost:8080'
+      TOKEN_SECRET: Z77vwHSIHd76863UuYXVrqHlefxewqWzkwtrObGB4wpZTVv61MHzgn8erpA2LkB
+      APP_URL: 'https://download.zaperon.com:8080'
       ASSETS_PATH: '/usr/src/electron-release-server/releases'
     depends_on:
       - db
@@ -34,8 +34,8 @@ services:
   db:
     image: postgres:11
     environment:
-      POSTGRES_PASSWORD: secret
-      POSTGRES_USER: releaseserver
+      POSTGRES_PASSWORD: HIRE#123
+      POSTGRES_USER: admin
     volumes:
       - postgres:/var/lib/postgresql/data
 
