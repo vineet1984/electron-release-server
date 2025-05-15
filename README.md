@@ -86,3 +86,4 @@ This project has been built from Sails.js up by Arek Sredzki, with inspiration f
 test
 test
 test
+test
