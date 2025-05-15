@@ -85,3 +85,4 @@ This project has been built from Sails.js up by Arek Sredzki, with inspiration f
 [MIT License](LICENSE.md)
 test
 test
+test
