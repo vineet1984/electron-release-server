@@ -1,4 +1,4 @@
-# Electron Release Server
+# Electron Release Server testing
 [![GitHub stars](https://img.shields.io/github/stars/ArekSredzki/electron-release-server.svg)](https://github.com/ArekSredzki/electron-release-server/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/ArekSredzki/electron-release-server.svg)](https://github.com/ArekSredzki/electron-release-server/network)
 [![Join the chat at https://gitter.im/ArekSredzki/electron-release-server](https://badges.gitter.im/ArekSredzki/electron-release-server.svg)](https://gitter.im/ArekSredzki/electron-release-server?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
